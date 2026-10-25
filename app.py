@@ -1,10 +1,10 @@
 """Streamlit UI:  streamlit run app.py"""
 import streamlit as st
 
-from rag.config import settings
-from rag.embeddings import Embedder
-from rag.llm import llm_available
-from rag.pipeline import PDFQAPipeline
+from config import settings
+from embeddings import Embedder
+from llm import llm_available
+from pipeline import PDFQAPipeline
 
 st.set_page_config(page_title="PDF Q&A Assistant", page_icon="📄", layout="wide")
 
