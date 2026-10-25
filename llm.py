@@ -3,8 +3,8 @@ from __future__ import annotations
 
 import os
 
-from .chunker import Chunk
-from .config import settings
+from chunker import Chunk
+from config import settings
 
 SYSTEM_PROMPT = (
     "You are a precise assistant that answers questions about a PDF document.\n"
